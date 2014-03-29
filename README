@@ -1,6 +1,5 @@
 Here's what it took to finally generate a different out.js:
 
-```
 node browserify.js > out.js
 echo $(md5 ./out.js);
 MD5 (./out.js) = ad123334a12c159a3f56cc062d475558
@@ -85,7 +84,6 @@ MD5 (./out.js) = ad123334a12c159a3f56cc062d475558
 node browserify.js > out.js
 echo $(md5 ./out.js);
 MD5 (./out.js) = fe9bdd2895eec055a9fbf842fd504a10
-```
 
 And here's the difference between the 2 versions of out.js:
 
