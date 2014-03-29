@@ -1,6 +1,6 @@
 Here's what it took to finally generate a different out.js:
 
-```bash
+```
 node browserify.js > out.js
 echo $(md5 ./out.js);
 MD5 (./out.js) = ad123334a12c159a3f56cc062d475558
